@@ -32,7 +32,6 @@ public class OopsPen {
         Pen p1= new Pen();
         Pen p2 = new Pen();
         Dog d = new Dog(); 
-        Student S = new Student();
        // p1.colour = "Black";
        // p1.Number = 10;
         p2.colour ="Red";
