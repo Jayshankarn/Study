@@ -89,19 +89,9 @@ public class BST {
             printInRange(root.right, k1, k2);
         }
     }
-    public static void printRootToLeafPaths(Node root, ArrayList<Integer> path) {
-        if (root == null) {
-            return;
-        }
-        path.add(root.data);
-        if (root.left == null && root.right == null) {
-            System.out.println(path);
-        } else {
-            printRootToLeafPaths(root.left, path);
-            printRootToLeafPaths(root.right, path);
-        }
-        path.remove(path.size() - 1);
-    }
+  public static void printRootToLeaf( num2){
+
+  }
     public static void main(String[] args) {
         int values[] = {5, 1, 3, 4, 2, 7};
         Node root = null;
